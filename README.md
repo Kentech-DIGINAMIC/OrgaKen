@@ -18,4 +18,4 @@
 
 Le npm install installera toutes les dépendances qu'il y auras dans le fichier package.json
 
-# Pour vérifier que cela à bien fonctionner taper npm start dans votre terminal powershell.
+# Pour vérifier que cela à bien fonctionner taper npm start dans votre terminal. 
