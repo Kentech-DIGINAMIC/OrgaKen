@@ -18,4 +18,6 @@
 
 Le npm install installera toutes les dépendances qu'il y auras dans le fichier package.json
 
+Attention, un fois le projet récuperer, il faut banir le << git add . >> car cela ajoutera tout les fichiers du dossier node_modules ! (même si le gitignore est présent)
+
 # Pour vérifier que cela à bien fonctionner taper npm start dans votre terminal. 
