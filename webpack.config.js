@@ -14,10 +14,18 @@ module.exports = {
         test: /.scss$/,
         use: ["style-loader", "css-loader", "sass-loader"],
         },
+        {
+          test: /\.css$/,
+          use: ['style-loader', 'css-loader']
+        },
+        {
+          test: /\.html$/i,
+          loader: "html-loader",
+        },
     ],
   },
   plugins: [new HtmlWebpackPlugin({
-    template: 'src/index.html'
+    template: './src/index.html'
   })],
   devServer: {open: true},
 };

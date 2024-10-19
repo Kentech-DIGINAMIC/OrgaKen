@@ -1,11 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    
+    <title>Login - OrgaKen</title>
 </head>
 <body>
-    <h1>Démo webpack</h1>
+    <div class="container">
+        <div class="login-box">
+            <div class="logo">
+                <img src="/src/assets/pictures/OrgaKen_logo.svg" alt="Logo Orgaken">
+            </div>
+            <h1>OrgaKen</h1>
+            <form>
+                <label for="identifiant">Identifiant :</label>
+                <input type="text" id="identifiant" name="identifiant" placeholder="Identifiant">
+                <label for="password">Mot de passe :</label>
+                <input type="password" id="password" name="password" placeholder="Mot de passe">
+
+                <button type="submit">Connexion</button>
+            </form>
+            <div class="support-links">
+                <a href="#">Contacter le support</a>
+                <a href="#">Inscription Admin</a>
+            </div>
+        </div>
+        <div class="footer">
+            <p>&copy; 2024 | MASSE & TECH. Tous droits réservés.</p>
+            <ul>
+                <li><a href="#">Contact support</a></li>
+                <li><a href="#">Conditions Générales d'Utilisation</a></li>
+                <li><a href="#">Politique de Confidentialité</a></li>
+                <li><a href="#">Mentions Légales</a></li>
+            </ul>
+        </div>
+
+        <!-- Images bas de page-->
+        <div class="illustration_left">
+            <img src="/src/assets/pictures/illustration_left.png" alt="illustration_left">
+        </div>
+        <div class="illustration_right">
+            <img src="/src/assets/pictures/illustration_right.png" alt="illustration_right">
+        </div>
+    </div>
 </body>
 </html>
