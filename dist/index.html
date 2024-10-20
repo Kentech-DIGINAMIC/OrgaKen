@@ -3,46 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
     <title>Login - OrgaKen</title>
 <script defer src="main.js"></script></head>
-<body>
-    <div class="container">
-        <div class="login-box">
-            <div class="logo">
-                <img src="93f7d4645710c3a7b57d.svg" alt="Logo Orgaken">
-            </div>
-            <h1>OrgaKen</h1>
+<body class="bg-light">
+    <div class="mb-4">
+        <img src="93f7d4645710c3a7b57d.svg" alt="Logo Orgaken" class="img-fluid logo">
+    </div>
+
+    <div class="container d-flex justify-content-center align-items-center vh-100">
+        <div class="login-box bg-white p-4 shadow rounded text-center">
             <form>
-                <label for="identifiant">Identifiant :</label>
-                <input type="text" id="identifiant" name="identifiant" placeholder="Identifiant">
-                <label for="password">Mot de passe :</label>
-                <input type="password" id="password" name="password" placeholder="Mot de passe">
+                <div class="mb-3">
+                    <label for="identifiant" class="form-label">Identifiant :</label>
+                    <input type="text" id="identifiant" name="identifiant" class="form-control" placeholder="Identifiant">
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label">Mot de passe :</label>
+                    <input type="password" id="password" name="password" class="form-control" placeholder="Mot de passe">
+                </div>
 
-                <button type="submit">Connexion</button>
+                <button type="submit" class="btn w-100">Connexion</button>
             </form>
-            <div class="support-links">
-                <a href="#">Contacter le support</a>
-                <a href="#">Inscription Admin</a>
-            </div>
-        </div>
-        <div class="footer">
-            <p>&copy; 2024 | MASSE & TECH. Tous droits réservés.</p>
-            <ul>
-                <li><a href="#">Contact support</a></li>
-                <li><a href="#">Conditions Générales d'Utilisation</a></li>
-                <li><a href="#">Politique de Confidentialité</a></li>
-                <li><a href="#">Mentions Légales</a></li>
-            </ul>
-        </div>
 
-        <!-- Images bas de page-->
-        <div class="illustration_left">
-            <img src="51a8a7c634447d395c2c.png" alt="illustration_left">
-        </div>
-        <div class="illustration_right">
-            <img src="e4ebbdd2165bb1aeef82.png" alt="illustration_right">
+            <div class="support-links mt-4">
+                <a href="#" class="d-block">Contacter le support</a>
+                <a href="#" class="d-block">Inscription Admin</a>
+            </div>
         </div>
     </div>
+
+    <div class="footer text-center mt-5">
+        <p>&copy; 2024 | KENTEC. Tous droits réservés.</p>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="#">Contact support</a></li>
+            <li class="list-inline-item"><a href="#">Conditions Générales d'Utilisation</a></li>
+            <li class="list-inline-item"><a href="#">Politique de Confidentialité</a></li>
+            <li class="list-inline-item"><a href="#">Mentions Légales</a></li>
+        </ul>
+    </div>
+
+    <div class="position-absolute bottom-0 start-0 illustration_left">
+        <img src="51a8a7c634447d395c2c.png" alt="illustration_left" class="img-fluid" style="max-width: 300px;">
+    </div>
+    <div class="position-absolute bottom-0 end-0 illustration_right">
+        <img src="e4ebbdd2165bb1aeef82.png" alt="illustration_right" class="img-fluid" style="max-width: 300px;">
+    </div>
+
 </body>
 </html>
